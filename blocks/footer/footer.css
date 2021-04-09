@@ -1,0 +1,7 @@
+.footer {
+  font-family: 'Inter', Arial, sans-serif;
+  color: #000;
+  background-color: #fecda7;
+  height: 620px;
+  display: flex;
+}
