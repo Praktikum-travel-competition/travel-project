@@ -1,0 +1,30 @@
+.intro {
+  font-family: 'Inter', Arial, sans-serif;
+  padding: 35px 160px 130px 69px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 980px) {
+  .intro {
+    padding-right: 100px;
+    padding-bottom: 80px;
+  }
+}
+
+
+@media (max-width: 720px) {
+  .intro {
+    padding-right: 69px;
+  }
+}
+
+@media (max-width: 650px) {
+  .intro {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0 35px;
+  }
+}
