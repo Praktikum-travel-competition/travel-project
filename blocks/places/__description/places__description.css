@@ -1,0 +1,26 @@
+.places__description {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 68px 74px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1060px) {
+  .places__description {
+    padding: 68px 50px;
+  }
+}
+
+@media (max-width: 720px) {
+  .places__description {
+    padding: 50px 40px;
+  }
+}
+
+@media (max-width: 650px) {
+  .places__description {
+    width: 100%;
+  }
+}
+

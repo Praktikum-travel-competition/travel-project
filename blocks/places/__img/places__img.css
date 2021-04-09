@@ -1,0 +1,11 @@
+.places__img {
+  width: 50%;
+  height: 60vmin;
+  object-fit: cover;
+}
+
+@media (max-width: 650px) {
+  .places__img {
+    width: 100%;
+  }
+}
