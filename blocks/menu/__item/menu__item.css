@@ -6,3 +6,13 @@
   margin-right: 0;
   margin-left: auto;
 }
+
+@media (max-width: 520px) {
+  .menu__item {
+    margin: 0 0 10px;
+  }
+
+  .menu__item:last-child {
+    margin: 0;
+  }
+}

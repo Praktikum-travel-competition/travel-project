@@ -1,7 +1,18 @@
 .menu__link {
   font-weight: 900;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 1;
   text-decoration: none;
   color: inherit;
+  transition: opacity .3s;
+}
+
+.menu__link:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 1280px) {
+  .menu__link {
+    font-size: 12px;
+  }
 }
