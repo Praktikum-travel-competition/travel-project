@@ -1,0 +1,17 @@
+.about-travel {
+  padding: 137px 69px 127px;
+  /* margin: 137px auto 127px; */
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (max-width: 720px) {
+  .about-travel {
+    padding: 80px 40px 100px;
+  }
+}
+
+@media (max-width: 350px) {
+  .about-travel {
+    padding: 60px 25px 80px;
+  }
+}
