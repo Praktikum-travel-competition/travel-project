@@ -3,3 +3,10 @@
   font-weight: 700;
   font-size: 30px;
 }
+
+@media (max-width: 478px) {
+  .footer__copyright {
+    font-size: 24px;
+  }
+}
+
