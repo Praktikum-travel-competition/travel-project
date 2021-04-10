@@ -15,11 +15,18 @@
 @media (max-width: 650px) {
   .intro__title {
     text-align: center;
+    margin-top: 18px;
   }
 }
 
 @media (max-width: 520px) {
   .intro__title {
     font-size: 22px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__title {
+    margin-top: 20px;
   }
 }
