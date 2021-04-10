@@ -1,0 +1,12 @@
+.quote__text {
+  font-size: 12px;
+  line-height: 1.75;
+  margin: 31px 0 0;
+  max-width: 220px;
+}
+
+@media (max-width: 520px) {
+  .quote__text {
+    margin-top: 15px;
+  }
+}

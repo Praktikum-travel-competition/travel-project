@@ -28,6 +28,13 @@
 @import url(../blocks/places/__text/places__text.css);
 
 /* about-travel section styles */
+@import url(../blocks/about-travel/about-travel.css);
+@import url(../blocks/about-travel/__title/about-travel__title.css);
+@import url(../blocks/about-travel/__subtitle/about-travel__subtitle.css);
+@import url(../blocks/about-travel/__quotes/about-travel__quotes.css);
+@import url(../blocks/qoute/quote.css);
+@import url(../blocks/qoute/__author/quote__author.css);
+@import url(../blocks/qoute/__text/quote__text.css);
 
 /* footer styles */
 @import url(../blocks/footer/footer.css);
