@@ -1,0 +1,33 @@
+.intro__image {
+  background-image: url(../../../images/intro-image.jpeg);
+  width: 355px;
+  height: 355px;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 1060px) {
+  .intro__image {
+    height: 300px;
+  }
+}
+
+@media (max-width: 980px) {
+  .intro__image {
+    height: 280px;
+  }
+}
+
+@media (max-width: 780px) {
+  .intro__image {
+    height: 235px;
+  }
+}
+
+@media (max-width: 650px) {
+  .intro__image {
+    display: none;
+  }
+}
+
+
